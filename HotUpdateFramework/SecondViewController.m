@@ -27,9 +27,8 @@
     UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [backButton setTitle:@"返回" forState:UIControlStateNormal];
     [backButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-//    self.navigationController;
-   
-//    nav.navigationItem.leftBarButtonItem = 
+
+    
     UILabel *lable = [[UILabel alloc] init];
     lable.frame = CGRectMake(20, 64, [UIScreen mainScreen].bounds.size.width - 40, 20);
     lable.textColor = [UIColor redColor];

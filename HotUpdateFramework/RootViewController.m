@@ -48,11 +48,11 @@
      　因为在当前程序的路径下是找不到此图片的，图片也会被封装到framwork中
      *如果在xib文件中直接为某个控件添加图片的话，和平常使用一样直接添加图片名称，不会出现路径的问题
      */
-    [navImageView setImage:[UIImage imageWithContentsOfFile:[self.root_bundle pathForResource:@"root_top_bg" ofType:@"png"]]];
+//    [navImageView setImage:[UIImage imageWithContentsOfFile:[self.root_bundle pathForResource:@"root_top_bg" ofType:@"png"]]];
     
-    [navImageView setUserInteractionEnabled:YES];
-    [self.view addSubview:navImageView];
-    
+//    [navImageView setUserInteractionEnabled:YES];
+//    [self.view addSubview:navImageView];
+//    
     UIView *topView = [[UIView alloc]initWithFrame:CGRectMake(0, 20, 1024, 44)];
     [navImageView addSubview:topView];
     
